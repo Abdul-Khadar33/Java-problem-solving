@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Task5 {
+public class Task1_5 {
     public static void main(String[] args) {
         int[] arr = {7, 10, 4, 3, 20, 15};
         int k = 3;
