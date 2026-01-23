@@ -1,17 +1,28 @@
-public int isPalindrome(int input1)
+import java.util.Scanner;
+public class Task1_9
 {
-    int original = input1;
-    int reverse = 0;
-
-    while (input1 > 0)
+    public static void main(String args[])
     {
-        int digit = input1 % 10;
-        reverse = reverse * 10 + digit;
-        input1 = input1 / 10;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number : ");
+        int number = sc.nextInt();
+        int orginal = number;
+        int reverse = 0;
+        
+        while(number > 0)
+        {
+            int digit = number % 10;
+            reverse = reverse * 10 + digit;
+            number /= 10;
+            
+        }
+        if(orginal == reverse)
+        {
+            System.out.println("Its palindrome number");
+        }
+        else
+        {
+            System.out.println("Its not palindrome");
+        }
     }
-
-    if (original == reverse)
-        return 2;
-    else
-        return 1;
 }
