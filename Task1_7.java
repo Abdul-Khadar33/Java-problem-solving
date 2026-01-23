@@ -3,7 +3,7 @@ interface checkDigit
     boolean check(int digit);
 }
 
-public class Task7
+public class Task1_7
 {
     public static void main(String args[])
     {
