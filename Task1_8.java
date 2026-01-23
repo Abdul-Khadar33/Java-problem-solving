@@ -3,7 +3,7 @@ interface checkFibonacci
     long find(int n);
 }
 
-public class Task8
+public class Task1_8
 {
     public static void main(String args[])
     {
