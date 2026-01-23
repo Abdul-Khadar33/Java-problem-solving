@@ -1,4 +1,4 @@
-public class Task10 {
+public class Task1_10 {
     public int lastDigitSum(int input1, int input2)
     {
         if(input1 < 0)
